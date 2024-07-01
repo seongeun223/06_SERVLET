@@ -8,7 +8,7 @@
 <h1>Request Parameter</h1>
 <h3>GET 방식의 요청</h3>
 <h4>form 태그를 이용한 get 방식 요청</h4>
-<form action="querystring" method="post">
+<form action="querystring" method="get">
     <label>이름 : </label><input type="text" name="name">
     <br>
     <label>나이 : </label><input type="number" name="age">
