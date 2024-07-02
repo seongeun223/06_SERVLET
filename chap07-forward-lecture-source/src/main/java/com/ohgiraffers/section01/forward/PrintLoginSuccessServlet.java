@@ -56,7 +56,7 @@ public class PrintLoginSuccessServlet extends HttpServlet {
         * 하지만 forward방식은 request와 response를 포함하여 위임하므로 request 정보를
         * 저장하여, forward하면 위임받은 서블릿에서도 위임한 서블릿의 정보를 공유할 수 있다.
         * 이 때, forward 받은 서블릿의 존재를 클라이언트가 알 필요가 없기 때문에
-        * URL이 변경되지 않는다. (결과화면만 받으면 되기 때문)
+        * URL이 변경되지 않는다. (결과 화면만 받으면 되기 때문)
         * => forward 방식의 특징이 요청 시 서버로 전송한 데이터가 남아있는 상태로 새로고침(=재요청)
         * 을 하게 되면 동일한 요청을 반복하여 데이터 베이스에 insert 하는 등의 행위가 중복될 가능성이 있다.
         * -> 다른 페이지 전환 방식인 sendRedirect를 이용한다.
