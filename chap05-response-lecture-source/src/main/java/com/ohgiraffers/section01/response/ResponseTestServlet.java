@@ -33,7 +33,7 @@ public class ResponseTestServlet extends HttpServlet {
                 .append("<head>\n")
                 .append("</head>\n")
                 .append("<body>\n")
-                .append("<h1>안녕 서블렛 response</h1>\n")
+                .append("<h1>안녕 서블릿 response</h1>\n")
                 .append("</body>\n")
                 .append("</html>\n");
 
