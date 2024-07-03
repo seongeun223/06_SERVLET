@@ -35,7 +35,7 @@ public class DeleteSessionDataServlet extends HttpServlet {
 //        }
 
         System.out.println("============ invalidate 이후 ===========");
-        // session 안에 있는 값들을 모두 지운다. 
+        // session 안에 있는 값들을 모두 지운다.
 
         session.invalidate();
         sessionNames = session.getAttributeNames();
