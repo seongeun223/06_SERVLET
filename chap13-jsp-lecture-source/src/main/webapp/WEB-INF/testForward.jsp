@@ -18,7 +18,7 @@
 <h2>2. ${ member }</h2>
 <%-- 동일한 키 값을 가지게 될 경우 작은 영역부터 넓은 영역으로 우선순위를 가진다. --%>
 <%-- page -> request -> session -> context --%>
-<h2>3. ${ fullName }</h2>
-<h2>3. ${ fullName }</h2>
+<h2>3. ${ requestScope.fullName }</h2>
+<h2>3. ${ sessionScope.fullName }</h2>
 </body>
 </html>
