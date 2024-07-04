@@ -28,7 +28,6 @@ public class MemberServlet extends HttpServlet {
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/testForward.jsp");
         dispatcher.forward(request,response);
-
-
+        
     }
 }
